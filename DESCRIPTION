@@ -1,0 +1,18 @@
+Package: cavotes
+Type: Package
+Title: Canadian Election Data
+Version: 0.1.0
+Authors@R: as.person(c(
+    "Matthew Routley <matt@routleynet.org> [aut, cre]"
+    ))
+Description: Cleaned and packaged  results for Canadian elections
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6)
+Suggests:
+    dplyr (>= 1.0),
+    readr(>=1.0)
+URL: http://psephoanalytics.ca/
+BugReports: https://github.com/mroutley/cavotes/issues
